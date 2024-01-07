@@ -10,6 +10,9 @@
 @import './components/pagination';
 @import './components/why-us';
 
+@import './layouts/footer';
+@import './layouts/section';
+
 .container {
   width: 100%;
   max-width: 1288px;
@@ -72,6 +75,7 @@
   font-size: 114px;
   max-width: 529px;
   line-height: 0.8;
+  margin-bottom: 40px;
 }
 
 .hero-section {
@@ -183,100 +187,9 @@
   color: var(--primary-white);
 }
 
-/*footer*/
-.footer {
-  position: relative;
-  padding: 56px 0;
-  position: relative;
-  background-color: var(--primary-dark-blue);
-  background-image: url(../img/background-footer.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.footer::after {
-  position: absolute;
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 150px;
-  bottom: 0;
-  right: 0;
-  background-image: url(../img/photo-room.png);
-  content: '';
-}
-
-.footer-nav {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 50%;
-  text-align: left;
-}
-
-.footer-address-link {
-  color: var(--primary-white);
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: none;
-  gap: 16px;
-}
-
-.footer-address {
-  display: flex;
-  flex-basis: 50%;
-  gap: 20px;
-}
-
-.footer-address-list,
-.footer-address-info {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.footer-logo {
-  flex-grow: 1;
-}
-
-.footer-menu {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  gap: 16px;
-}
-
-.link-footer {
-  color: var(--primary-white);
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-.link-footer:hover {
-  color: var(--primary-blue);
-}
-
-.footer-socials {
-  display: flex;
-  margin-top: 16px;
-  gap: 24px;
-}
-
-.footer-socials-icon {
-  fill: var(--primary-white);
-}
-
-.footer-container {
-  display: flex;
-  gap: 20px;
-  /* flex-direction: row; */
-}
-
-.footer-address-copyright {
-  color: var(--secondary-gray);
-  font-size: 14px;
+// contact
+.contact-section {
+  padding-bottom: 96px;
 }
 
 /* Modal */
